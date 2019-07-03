@@ -36,7 +36,7 @@ public class Main {
         System.out.println(appleBox1.compare(orangeBox1)); // ящик с яблоками сравнивается с ящиком апельсинов
         System.out.println(appleBox2.compare(orangeBox1));
 
-        appleBox1.pour(appleBox2); // пересыпаем яблоки из 1 кобобки во 2ю
+        appleBox1.pour(appleBox2); // пересыпаем яблоки из 1 коробки во 2ю
         appleBox1.pour(appleBox1); // пересыпаем яблоки сами в себя
 
         System.out.println(appleBox1.getFruitsNumber());
